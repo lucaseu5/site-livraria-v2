@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Busquem conhecimento v2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-6">Livraria Busquem conhecimento</h1>
+            <button class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-a-livraria">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Livraria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#livros">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos livros
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true" >
+        <section id="sobre-a-livraria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2022/04/03/11/51/book-7108741_1280.jpg" alt="Espaço interno da Livraria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2020/05/25/17/54/library-5219747_1280.jpg" alt="Espaço interno da Livraria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/20/08/58/books-1842261_1280.jpg" alt="Espaço interno da Livraria">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://raw.githubusercontent.com/lucaseu5/livraria_busquem_conhecimento/main/images/livraria.png" alt="Foto da livraria internamente" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a livraria</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi neque dolorem porro vel unde quae cupiditate perspiciatis, eius aliquid, commodi asperiores ullam aspernatur nisi officia eligendi vitae sequi sed possimus.</p>
+                            <h3 class="section-title">Sobre o Espaço</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex fuga pariatur perferendis ut non. Deleniti quae vel adipisci dolores ullam eligendi ab magni? Quasi praesentium laudantium accusantium ab, vero ratione!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="section-title text-center">Voce Encontra por aqui!</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://macaetips.com/wp-content/uploads/2023/07/clube-do-livro-macae.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Clubes de livros</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem ad debitis numquam temporibus sunt. Ducimus magnam nisi nemo omnis atque sint, magni doloribus, aspernatur facilis fugiat consequatur consectetur possimus.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://s2-valor.glbimg.com/w49ByCCBkKnIWZaBO94xuRcVymk=/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/U/y/dEXaSWTumsFEqKUcunuQ/foto08pol-201-janot-a10.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Encontro com escritores</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem ad debitis numquam temporibus sunt. Ducimus magnam nisi nemo omnis atque sint, magni doloribus, aspernatur facilis fugiat consequatur consectetur possimus.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://www.bco.ufscar.br/imagens/14082019-dsc_9747.jpg/@@images/d66d2806-72d0-4d06-86f0-64ab8cce358a.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Area infantil</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem ad debitis numquam temporibus sunt. Ducimus magnam nisi nemo omnis atque sint, magni doloribus, aspernatur facilis fugiat consequatur consectetur possimus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="livros">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Livros disponiveis</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-livro mb-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#romance" class="fw-bold text-start nav-link active text-colored">
+                                Livros de romance
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#comedia" class="fw-bold text-start nav-link text-colored">
+                                Livros de comedia
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suspense" class="fw-bold text-start nav-link text-colored">
+                                Livros de Suspense
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fantasia" class="fw-bold text-start nav-link text-colored">
+                                Livros de fantasia
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="romance" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61Q5t-F+4BL._UX250_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A culpa é das estrelas - John Green</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61L+4OBhm-L._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A menina que roubava livros - Markus Zusak</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/81cVz6DxcaL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">Romeu e julieta - William Shakespeare</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61Q5t-F+4BL._UX250_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A culpa é das estrelas - John Green</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61L+4OBhm-L._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A menina que roubava livros - Markus Zusak</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/81cVz6DxcaL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">Romeu e julieta - William Shakespeare</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="comedia" class="tab-pane">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/712Igv1KXtL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">O auto da compadecida - Ariano Suassuna</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/61F0zxJlLKL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">O inspetor geral - Sylvia Orthof</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/51pDl7FmebL.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">Cadê você Bernadette? - Maria Semple</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/712Igv1KXtL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">O auto da compadecida - Ariano Suassuna</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/61F0zxJlLKL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">O inspetor geral - Sylvia Orthof</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="https://m.media-amazon.com/images/I/51pDl7FmebL.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                            <h5 class="text-colored fw-bold mt-2 rounded">Cadê você Bernadette? - Maria Semple</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div id="suspense" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A garota do lago - Charlie Donlea</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91fLBlcmpXL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A cabana - William P. Young</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/71CJEbzFuXL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">Um de nós está mentindo - 
+                                            Karen M. McManus</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/81LRk6+p1HL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A garota do lago - Charlie Donlea</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91fLBlcmpXL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">A cabana - William P. Young</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/71CJEbzFuXL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">Um de nós está mentindo - 
+                                            Karen M. McManus</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="fantasia" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61JenSx3wKL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O Ladrão de Raios - Rick Riordan</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91M9xPIf10L._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O Hobbit - J. R. R. Tolkien</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91m826tgBWL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O enigma de Blackthorn - Kevin Sands</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/61JenSx3wKL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O Ladrão de Raios - Rick Riordan</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91M9xPIf10L._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O Hobbit - J. R. R. Tolkien</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://m.media-amazon.com/images/I/91m826tgBWL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="Livro a culpa e das estrelas">
+                                        <h5 class="text-colored fw-bold mt-2 rounded">O enigma de Blackthorn - Kevin Sands</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"> Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua da inteligencia nº 123 Bairro da loucura São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
